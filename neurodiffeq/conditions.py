@@ -361,7 +361,7 @@ class DirichletBVP2D(BaseCondition):
     :param y_max_val: The boundary value on :math:`y = y_1`, i.e. :math:`g_1(x)`.
     :type y_max_val: callable
     """
-
+ 
     def __init__(self, x_min, x_min_val, x_max, x_max_val, y_min, y_min_val, y_max, y_max_val):
         r"""Initializer method
         """
